@@ -1,6 +1,3 @@
-# unity-topdown-engine
-Leolit Games Game Programmer Intern Test 2025
-
 # How to play?
 1. Use WASD to move the Player around.
 2. Left-click to attack.
