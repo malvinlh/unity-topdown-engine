@@ -6262,7 +6262,7 @@ MonoBehaviour:
   CharacterHealth: {fileID: 0}
   SendStateChangeEvents: 1
   AdditionalAbilityNodes: []
-  CharacterBrain: {fileID: 0}
+  CharacterBrain: {fileID: 537750246838230849}
   OptimizeForMobile: 1
 --- !u!114 &6311937572946013173
 MonoBehaviour:
@@ -6322,7 +6322,7 @@ MonoBehaviour:
   BlockingConditionStates: 
   BlockingWeaponStates: 
   Movement: 0
-  InputAuthorized: 1
+  InputAuthorized: 0
   AnalogInput: 0
   ScriptDrivenInput: 0
   WalkSpeed: 6
@@ -6391,7 +6391,7 @@ MonoBehaviour:
   AmmoDisplayID: 0
   AutoIK: 1
   ContinuousPress: 0
-  GettingHitInterruptsAttack: 0
+  GettingHitInterruptsAttack: 1
   UseSecondaryAxisThresholdToShoot: 0
   ForceWeaponAimControl: 0
   ForcedWeaponAimControl: 1
