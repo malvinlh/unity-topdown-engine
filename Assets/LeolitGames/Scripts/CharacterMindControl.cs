@@ -86,6 +86,10 @@ namespace MoreMountains.TopDownEngine
             _isMindControlled = false;
             _waitingForNewMindControl = false;
 
+            // Disable because player already win to avoid player and enemy movement
+            InputManager.Instance.InputDetectionActive = false;
+            _aiBrain.enabled = false;
+
             PlayAbilityStopFeedbacks();
             MindControlEndFeedback?.PlayFeedbacks(this.transform.position);
 
